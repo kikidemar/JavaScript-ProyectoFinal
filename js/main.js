@@ -61,7 +61,7 @@ const cargarBebidas = (array)=> {
 
 // Botones y eventos clicks
 
-function buscarBebida(codigo) {
+const buscarBebida = (codigo)=> {
     let resultado = bebidas.find(bebida=> bebida.codigo === parseInt(codigo))
     return resultado
 }
@@ -80,7 +80,7 @@ const botonAdd = () => {
 
 // Filtrado de bebidas
 
-function filtrarBebidas() {
+const filtrarBebidas = () => {
     let resultado = bebidas.filter(bebida => bebida.tipo.toUpperCase().includes(inputSearch.value.toUpperCase().trim()))
         if (resultado.length > 0) {
             cargarBebidas(resultado)

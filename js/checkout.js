@@ -1,5 +1,5 @@
 
-function recuperarCarrito() {
+const recuperarCarrito = () => {
     let tablaHTML = ""
     const tbody = document.querySelector("tbody")
     const carrito = JSON.parse(localStorage.getItem("carritoBebidas")) || []
@@ -11,7 +11,7 @@ function recuperarCarrito() {
 }
 recuperarCarrito()
 
-function btnComprar() {
+const btnComprar = () => {
     if (carrito.length > 0) {
         const shopping = new Compra(carrito)
         comprar()
@@ -22,7 +22,7 @@ function btnComprar() {
 const btnVerCarrito = document.querySelector("button#btnComprar")
 btnVerCarrito.addEventListener("click", btnComprar)
 
-function activarBotonesDelete() {
+const activarBotonesDelete = () => {
     const buttonsDelete = document.querySelectorAll("button.button")
     buttonsDelete.forEach(btn => {
         btn.addEventListener("click", () => {
@@ -60,7 +60,9 @@ const comprar = () => {
                 'success'
             )
             localStorage.clear()
-            location. reload()
+            setTimeout(() => {
+                location. reload()
+            }, 2000)
         }
     })
 }
