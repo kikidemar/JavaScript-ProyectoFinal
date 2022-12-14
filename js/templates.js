@@ -1,7 +1,7 @@
 const carrito = JSON.parse(localStorage.getItem("carritoBebidas")) || []
 
 
-function retornoError() {
+const retornoError = () => {
     return `<div class="card" style="width: 20rem;">
                 <div class="card-body alert-danger">
                     <h5 class="card-title">Apa, nos mandamos un moco!</h5>
@@ -10,7 +10,7 @@ function retornoError() {
             </div>`
 }
 
-function armarTablaCarrito(bebida) {
+const armarTablaCarrito = (bebida) =>{
     return `<tr>
                 <td><img src="${bebida.imagen}" style="height:120px" id="imagen"></img></td>
                 <td style="font-size: 23px;">${bebida.tipo}</td>
