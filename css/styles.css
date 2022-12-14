@@ -1,0 +1,58 @@
+.gray {
+    color: gray;
+}
+
+.error-bebidas {
+    text-align: center;
+    background-color: orangered;
+    color: rgb(247, 242, 242);
+    border-radius: 13px;
+}
+
+
+#btnComprar {
+    color: aquamarine;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+#tablehead {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.search{
+    width: 300px;
+    font-size: 23px;
+}
+
+@media only screen and (max-width:770px) {
+    body div {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .search{
+        width: 200px;
+    }
+}
+
+#btnComprar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

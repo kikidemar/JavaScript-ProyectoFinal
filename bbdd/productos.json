@@ -1,0 +1,86 @@
+[
+    {
+        "imagen": "img/Coca Cola.jfif",
+        "codigo": 1,
+        "tipo": "Coca Cola",
+        "precio": 450
+    },
+    {
+        "imagen": "img/Sprite.jfif",
+        "codigo": 2,
+        "tipo": "Sprite",
+        "precio": 430
+    },
+    {
+        "imagen": "img/Fanta.jfif",
+        "codigo": 3,
+        "tipo": "Fanta",
+        "precio": 420
+    },
+    {
+        "imagen": "img/Agua Mineral.png",
+        "codigo": 4,
+        "tipo": "Agua Mineral",
+        "precio": 100
+    },
+    {
+        "imagen": "img/Pomelo.png",
+        "codigo": 5,
+        "tipo": "Pomelo",
+        "precio": 135
+    },
+    {
+        "imagen": "img/Speed.jfif",
+        "codigo": 6,
+        "tipo": "Speed",
+        "precio": 300
+    },
+    {
+        "imagen": "img/Powerade.jfif",
+        "codigo": 7,
+        "tipo": "Powerade",
+        "precio": 260
+    },
+    {
+        "imagen": "img/Red Bull.jfif",
+        "codigo": 8,
+        "tipo": "Red Bull",
+        "precio": 310
+    },
+    {
+        "imagen": "img/Quilmes.png",
+        "codigo": 9,
+        "tipo": "Cerveza Quilmes",
+        "precio": 230
+    },
+    {
+        "imagen": "img/Miller.jfif",
+        "codigo": 10,
+        "tipo": "Cerveza Miller",
+        "precio": 550
+    },
+    {
+        "imagen": "img/Fernet.jfif",
+        "codigo": 11,
+        "tipo": "Fernet",
+        "precio": 2000
+    },
+    {
+        "imagen": "img/Gancia.jfif",
+        "codigo": 12,
+        "tipo": "Gancia",
+        "precio": 1800
+    },
+    {
+        "imagen": "img/Vodka.jpg",
+        "codigo": 13,
+        "tipo": "Vodka",
+        "precio": 4600
+    },
+    {
+        "imagen": "img/Ron.jpg",
+        "codigo": 14,
+        "tipo": "Ron",
+        "precio": 2200
+    }
+]
